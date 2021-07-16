@@ -4,8 +4,8 @@ body {
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   line-height: 32px;
-  color: #222222;
-  background-color: #f2f4f6;
+  color: #f2f2f2;
+  background-color: #080208;
   background-image: url("img/hero-bg.jpg");
   background-repeat: no-repeat;
   background-position: top center;
@@ -18,8 +18,21 @@ body {
 }
 
 .page-header {
-  margin: 0 0 160px;
+  margin: 0 0 180px;
   padding: 32px 0 32px;
+}
+
+.theme-button {
+position: absolute;
+top: 30px;
+left: 30px;
+font-size: 16px;
+font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+color: #fea18d;
+cursor: pointer;
+border: 2px solid #fea18d;
+border-radius: 5px;
+background-color: #080208;
 }
 
 .page-header .container,
@@ -30,7 +43,7 @@ body {
 
 .page-header a {
   margin-left: 56px;
-  color: #288be6;
+  color: #fea18d;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
@@ -38,16 +51,16 @@ body {
 
 .header-email {
   padding-left: 30px;
-  background-image: url("img/icon-email-header.svg");
+  background-image: url("img/icon-email.svg");
 }
 
 .header-phone {
   padding-left: 25px;
-  background-image: url("img/icon-phone-header.svg");
+  background-image: url("img/icon-phone.svg");
 }
 
 .hero-image {
-  margin-bottom: 620px;
+  margin-bottom: 480px;
 }
 
 .hero-image .container {
@@ -56,11 +69,9 @@ body {
 }
 
 .heading {
-  margin: 0 0 16px;
-  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
-  font-size: 88px;
+  margin: 0 0 24px;
+  font-size: 80px;
   line-height: 96px;
-  font-weight: 400;
 }
 
 .hero-image p {
@@ -75,10 +86,8 @@ body {
 
 .subheading {
   margin: 0 0 56px;
-  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
-  font-size: 64px;
+  font-size: 56px;
   line-height: 80px;
-  font-weight: 400;
   text-align: center;
 }
 
@@ -123,15 +132,15 @@ body {
   padding: 0;
   height: 14px;
   font-size: 0;
-  background-color: #ffffff;
-  border: 1px solid #86c3fa;
+  background-color: #080208;
+  border: 1px solid #712073;
   border-radius: 8px;
 }
 
 .level div {
   margin: 1px;
   height: 12px;
-  background-color: #288be6;
+  background-color: #fea18d;
   border-radius: 6px;
 }
 
@@ -165,30 +174,85 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 4px;
-  background-color: #288be6;
+  background-color: #712073;
   color: #ffffff;
 }
 
 .page-footer {
   padding: 40px 0;
-  background-color: #00417d;
-  color: #ffffff;
+  color: #fea18d;
+  background-color: #260c26;
 }
 
 .page-footer a {
   margin-left: 56px;
-  color: inherit;
+  color: #fea18d;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
 }
 
+
+
 .footer-email {
   padding-left: 30px;
-  background-image: url("img/icon-email-footer.svg");
+  background-image: url("img/icon-email.svg");
 }
 
 .footer-phone {
   padding-left: 25px;
-  background-image: url("img/icon-phone-footer.svg");
+  background-image: url("img/icon-phone.svg");
+}
+/* Cветлая тема*/
+
+.light-theme {
+    color: #222222;
+  background-color: #f2f4f6;
+  background-image: url("img/hero-bgl.jpg");
+}
+
+.light-theme .theme-button {
+  color: #288be6;
+  background-color: #f2f4f6;
+  border: 2px solid #288be6;
+}
+
+.light-theme .header-email {
+  color: #288be6;
+  background-image: url("img/icon-email-headerl.svg");
+}
+
+.light-theme .header-phone {
+  color: #288be6;
+  background-image: url("img/icon-phone-headerl.svg");
+}
+
+.light-theme .level {
+  background-color: #ffffff;
+  border: 1px solid #86c3fa;
+
+}
+
+.light-theme .level div {
+  background-color: #288be6;
+}
+
+.light-theme .button {
+  background-color: #288be6;
+  color: #ffffff;
+}
+
+.light-theme .page-footer {
+  background-color: #00417d;
+  color: #ffffff;
+}
+
+.light-theme .footer-email {
+  color: #288be6;
+  background-image: url("img/icon-email-footerl.svg");
+}
+
+.light-theme .footer-phone {
+  color: #288be6;
+  background-image: url("img/icon-phone-footerl.svg");
 }
